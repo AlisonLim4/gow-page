@@ -1,0 +1,121 @@
+body {
+  background: url("../assets/home_background.webp");
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo_container {
+  margin-left: 80px;
+}
+.logo {
+  width: 100px;
+}
+nav {
+  background: #0e0d0d;
+  border-radius: 50px 0 0 50px;
+  padding: 15px 80px 15px 15px;
+}
+.nav_menu {
+  display: flex;
+  gap: 80px;
+  font-size: 20px;
+  color: #fff;
+  padding-left: 40px;
+}
+.nav_menu a {
+  transition: 0.2s;
+}
+.nav_menu a:hover {
+  color: rgb(228, 127, 13);
+}
+/* //Jornada */
+.jornada_container {
+  margin-top: 120px;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+.jornada {
+  color: #fff;
+  text-align: center;
+  max-width: 65ch;
+}
+.jornada p {
+  padding-top: 30px;
+  font-size: 20px;
+  line-height: 34px;
+}
+.missao {
+  display: flex;
+  gap: 120px;
+  margin: 80px 200px 0 200px;
+}
+.missao img {
+  max-width: 600px;
+  max-height: 300px;
+}
+.missao h2 {
+  font-size: 24px;
+  font-weight: 900;
+  margin-bottom: 32px;
+}
+.missao p:first-of-type {
+  margin-bottom: 20px;
+}
+.missao p {
+  font-weight: 400;
+  line-height: 24px;
+}
+.mapa h1 {
+  margin-top: 120px;
+  text-align: center;
+}
+.mundo_txt_container {
+  background-color: #1f1f1f;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  max-width: 650px;
+}
+.mundo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-content: center;
+  gap: 20px;
+  /* column-gap: 20px; */
+  margin: 60px 60px;
+}
+
+.mundo img {
+  border-radius: 16px;
+  max-height: 350px;
+  max-width: 650px;
+  filter: drop-shadow(9px 9px 5px);
+}
+.mundo p {
+  max-width: 80ch;
+  line-height: 27px;
+  padding: 20px 40px;
+  /* border: 1px solid red; */
+}
+.button_container {
+  display: flex;
+  justify-content: center;
+}
+.button {
+  font-size: 30px;
+  padding: 10px 20px;
+  border-radius: 30px;
+  margin-bottom: 80px;
+  color: #000;
+  background: rgba(255, 255, 255, 0.65);
+  transition: 0.2s;
+}
+.button:hover {
+  background: rgba(66, 65, 65, 0.65);
+  color: rgb(228, 127, 13);
+}

@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "GodOfWar", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+li {
+  list-style: none;
+}
+
+.titulo {
+  font-family: "Berserker", sans-serif;
+  font-size: 2.4rem;
+  color: #fff;
+  text-transform: uppercase;
+}
+.paragraph,
+.subtitle {
+  font-family: "Besley", sans-serif;
+  color: #fff;
+}
