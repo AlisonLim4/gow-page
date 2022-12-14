@@ -5,6 +5,7 @@
 }
 html {
   font-family: "GodOfWar", sans-serif;
+  font-size: 62.5%; /* 1rem = 10px */
 }
 a {
   text-decoration: none;
@@ -16,7 +17,7 @@ li {
 
 .titulo {
   font-family: "Berserker", sans-serif;
-  font-size: 2.4rem;
+  font-size: 40px;
   color: #fff;
   text-transform: uppercase;
 }
@@ -24,4 +25,41 @@ li {
 .subtitle {
   font-family: "Besley", sans-serif;
   color: #fff;
+  font-size: 1.6rem;
+}
+/* ---------------------------------- */
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav {
+  background: #0e0d0d;
+  border-radius: 50px 0 0 50px;
+  padding: 15px 80px 15px 15px;
+}
+body {
+  background: url("../assets/home_background.webp");
+}
+
+.logo_container {
+  margin-left: 80px;
+}
+.logo {
+  width: 100px;
+}
+
+.nav_menu {
+  display: flex;
+  gap: 80px;
+  font-size: 20px;
+  color: #fff;
+  padding-left: 40px;
+}
+.nav_menu a {
+  transition: 0.2s;
+}
+.nav_menu a:hover {
+  color: rgb(228, 127, 13);
 }
