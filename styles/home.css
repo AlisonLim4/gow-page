@@ -1,36 +1,3 @@
-body {
-  background: url("../assets/home_background.webp");
-}
-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.logo_container {
-  margin-left: 80px;
-}
-.logo {
-  width: 100px;
-}
-nav {
-  background: #0e0d0d;
-  border-radius: 50px 0 0 50px;
-  padding: 15px 80px 15px 15px;
-}
-.nav_menu {
-  display: flex;
-  gap: 80px;
-  font-size: 20px;
-  color: #fff;
-  padding-left: 40px;
-}
-.nav_menu a {
-  transition: 0.2s;
-}
-.nav_menu a:hover {
-  color: rgb(228, 127, 13);
-}
 /* //Jornada */
 .jornada_container {
   margin-top: 120px;
