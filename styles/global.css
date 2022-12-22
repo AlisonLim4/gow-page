@@ -14,19 +14,32 @@ a {
 li {
   list-style: none;
 }
-
+.container {
+  margin-top: 120px;
+  padding-bottom: 100px;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
 .titulo {
   font-family: "Berserker", sans-serif;
   font-size: 40px;
   color: #fff;
   text-transform: uppercase;
 }
+.subtitle {
+  margin-top: 3.2rem;
+  font-size: 2rem;
+}
+.paragraph {
+  font-size: 1.6rem;
+}
 .paragraph,
 .subtitle {
   font-family: "Besley", sans-serif;
   color: #fff;
-  font-size: 1.6rem;
 }
+
 /* ---------------------------------- */
 
 header {
@@ -35,6 +48,8 @@ header {
   justify-content: space-between;
 }
 nav {
+  position: absolute;
+  right: 0;
   background: #0e0d0d;
   border-radius: 50px 0 0 50px;
   padding: 15px 80px 15px 15px;

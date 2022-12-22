@@ -1,0 +1,79 @@
+html {
+  display: flex;
+  justify-content: center;
+}
+body {
+  max-width: 1588px;
+}
+.container {
+  margin-left: 200px;
+  margin-right: 80px;
+}
+.cards_container {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid red; */
+}
+.card {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 60px;
+}
+.card-img_container {
+}
+.card-img_container img {
+  width: 550px;
+  height: 700px;
+}
+.card-text-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.card-text-side p {
+  line-height: 35px;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.mini_imgs {
+  display: flex;
+  gap: 20px;
+}
+.mini_imgs img {
+  width: 250px;
+  height: 300px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.container_2 {
+  font-family: berserker, sans-serif;
+  color: #fff;
+  padding-left: 200px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.paragraph_2 {
+  font-family: besley, sans-serif;
+  font-size: 24px;
+}
+.paragraph_2 p {
+  margin-bottom: 20px;
+}
+.paragraph_2 ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.paragraph_2 ul li {
+  list-style: disc;
+}
+.titulo_2 {
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+.distac {
+  color: #11ff90;
+  font-weight: bold;
+}

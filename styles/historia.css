@@ -37,9 +37,9 @@
   margin-top: 40px;
 }
 .enredo-paragraph {
-  text-align: center;
+  /* text-align: center; */
   line-height: 1.5;
-  max-width: 150ch;
+  max-width: 120ch;
 }
 .ragnarok {
   margin-top: 120px;
@@ -52,9 +52,8 @@
   margin-bottom: 40px;
 }
 .ragnarok p {
-  max-width: 150ch;
-  text-align: center;
   line-height: 1.5;
+  max-width: 120ch;
 }
 .trailer {
   display: flex;
